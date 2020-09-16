@@ -1,0 +1,12 @@
+.header{
+border: 1px solid red;
+margin:0px;
+width:1500px;
+height: 10px;
+margin-right: 100%;
+padding: 40px;
+display: flex;
+justify-content: center;
+
+
+}
