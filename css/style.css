@@ -7,6 +7,7 @@ margin-right: 100%;
 padding: 40px;
 display: flex;
 justify-content:start ;
+border-radius: 50px;
 }
 
 body{
@@ -19,7 +20,7 @@ margin: 20px;
 height: 100%;
 width: 500%;
 }
-.button{
+.boton{
 padding: 10px;
 width: 100;
 right: 10px;
