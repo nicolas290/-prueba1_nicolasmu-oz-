@@ -1,6 +1,6 @@
 .header{
 border: 1px solid red;
-margin:0px;
+margin:3px;
 width:1500px;
 height: 100px;
 margin-right: 100%;
@@ -20,14 +20,15 @@ margin: 20px;
 height: 100%;
 width: 500%;
 }
-.boton{
+.button{
 padding: 10px;
-width: 100;
-right: 10px;
+width: 1000;
+padding-left: 100%;
 align-content: space-around;
+right: 500%;
 } 
 .caja3{
-border: 1px solid blue;
+
 margin:0px;
 width:1000px;
 height: 100px;
@@ -41,4 +42,16 @@ list-style: none;
 margin-left: 22px;
 width: 200%;
 padding: 20px;
+}
+.caja4{
+
+width:100%;
+display: flex;
+align-content: flex-end;
+padding: 100px;
+}
+
+.imagen1{
+border:1px solid blue;
+
 }
