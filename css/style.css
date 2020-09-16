@@ -1,3 +1,6 @@
+:root{
+--white:rgb(247, 247, 247);
+}
 .header{
 border: 1px solid red;
 margin:3px;
@@ -13,19 +16,13 @@ border-radius: 50px;
 body{
 font-size:25px;
 }
-.imagenfondo{
-display: flex;
-justify-content: center;
-margin: 20px;
-height: 100%;
-width: 500%;
-}
+
 .button{
-padding: 10px;
+padding: 100px;
 width: 1000;
 padding-left: 100%;
-align-content: space-around;
-right: 500%;
+align-content: flex-end;
+right: 100%;
 } 
 .caja3{
 
@@ -43,15 +40,28 @@ margin-left: 22px;
 width: 200%;
 padding: 20px;
 }
-.caja4{
+.caja5{
 
-width:100%;
+background-color:rgb(245, 80, 135);
+
+width:80%;
 display: flex;
 align-content: flex-end;
 padding: 100px;
+display: flex;
+align-content: flex-start;
 }
 
-.imagen1{
-border:1px solid blue;
-
+.caja5 p{
+color : var(--white);
 }
+
+.caja5 button{
+width: 30%;
+height: 50%;
+padding: 20px;
+display: flex;
+justify-items: flex-end;
+}
+
+
